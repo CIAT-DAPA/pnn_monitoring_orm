@@ -1,5 +1,4 @@
 from .models.action import Action
-from .models.action_type import Action_type
 from .models.actor import Actor
 from .models.declarative_base import Base
 from .models.guideline import Guideline
