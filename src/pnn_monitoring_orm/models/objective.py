@@ -6,7 +6,7 @@ class Objective(Base):
 	__tablename__ = 'Objective'
 
 	id = Column(Integer, primary_key=True)
-	name = Column(String(255))
+	name = Column(String)
 	description = Column(String)
 	ext_id= Column(String(50), nullable=True)
 
