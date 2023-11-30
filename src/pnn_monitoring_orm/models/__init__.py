@@ -1,5 +1,4 @@
 from .action import Action
-from .action_type import Action_type
 from .actor import Actor
 from .declarative_base import Base
 from .guideline import Guideline

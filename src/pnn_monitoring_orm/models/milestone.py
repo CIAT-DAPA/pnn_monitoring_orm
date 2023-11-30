@@ -7,7 +7,7 @@ class Milestone(Base):
 	
 	id = Column(Integer, primary_key=True)
 	name = Column(String)
-	producto_indicator = Column(String)
+	product_indc = Column(String)
 	obs = Column(String, nullable=True)
 	action_id = Column(Integer, ForeignKey('Action.id'))
 
