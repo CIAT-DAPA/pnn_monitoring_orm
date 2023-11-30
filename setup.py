@@ -5,7 +5,7 @@ setup(
     version='0.0.0',
     author="victor-993",
     author_email="v.hernandez@cgiar.com",
-    description="ORM para la base de datos para la herramienta de monitoreo financiero PNN",
+    description="ORM para la base de datos de la herramienta monitoreo financiero PNN",
     url="https://github.com/CIAT-DAPA/pnn_monitoring_orm",
     download_url="https://github.com/CIAT-DAPA/pnn_monitoring_orm",
     packages=find_packages('src'),
