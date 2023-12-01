@@ -14,6 +14,7 @@ class Detail(Base):
     period_id = Column(Integer, ForeignKey("Period.id"))
     product_id = Column(Integer, ForeignKey("Product.id"))
     implemented_value = Column(Double)
+    base_line = Column(Integer)
     milestone_id = Column(Integer, ForeignKey("Milestone.id"))
 
     # Relación con la tabla Period

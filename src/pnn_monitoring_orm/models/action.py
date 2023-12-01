@@ -7,6 +7,7 @@ class Action(Base):
 
 	id = Column(Integer, primary_key=True)
 	name = Column(String)
+	action_indc = Column(String)
 	guideline_id = Column(Integer, ForeignKey('Guideline.id'))
 
 	# Relación con la tabla Guideline
