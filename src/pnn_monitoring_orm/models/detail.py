@@ -10,7 +10,7 @@ class Detail(Base):
     amount = Column(Double)
     quantity = Column(Integer)
     date = Column(Date)
-    goat = Column(Integer)
+    goal = Column(Integer)
     period_id = Column(Integer, ForeignKey("Period.id"))
     product_id = Column(Integer, ForeignKey("Product.id"))
     implemented_value = Column(Double)
