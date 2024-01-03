@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pnn_monitoring_orm",
-    version='v0.0.4',
+    version='v0.0.5',
     author="victor-993",
     author_email="v.hernandez@cgiar.com",
     description="ORM para la base de datos de la herramienta monitoreo financiero PNN",
